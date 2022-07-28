@@ -1,0 +1,279 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #4a1dfd;
+    padding: 0px 48px;
+    padding-top: 28px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.nav-items {
+    color: #FFFFFF;
+
+    display: flex;
+    padding-right: 6%;
+    gap: 40px;
+}
+
+.nav-item-active {
+    background-color: #FFFFFF;
+    color: #4a1dfd;
+    padding: 1px 13px;
+    border-radius: 2px;
+}
+
+.main {
+    display: flex;
+}
+
+.header-text {
+    padding: 100px 0;
+    align-self: center;
+}
+
+.header-text h2 {
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.header-text p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header-image {
+    flex: 1;
+    position: relative;
+}
+
+.header-image img {
+    width: 600px;
+    position: absolute;
+    top: 6px;
+    right: -48px;
+}
+
+.companies {
+    display: flex;
+    width: 62%;
+    justify-content: space-evenly;
+}
+
+.company-items {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Righteous";
+    padding: 24px 0;
+}
+
+.api {
+    padding: 0 48px;
+}
+
+.api h1 {
+    font-size: 48px;
+    padding: 48px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.next {
+    align-self: center;
+}
+
+.next i{
+    background-color: #5A31FC;
+    color: #FFFFFF;
+    padding: 10px 14px;
+    border-radius: 60px;
+}
+
+.blog {
+    padding: 0 48px;
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-heading h1 {
+    padding: 48px 0 5px 0;
+    font-size: 48px;
+}
+
+.blog-heading p {
+    font-size: 25px;
+    align-self: flex-end;
+    color: #4a1dfd;
+    font-weight: 700;
+}
+
+.blog-cards {
+    display: flex;
+    margin-top: 48px;
+}
+
+.blog-card {
+    display: flex;
+    flex: 1;
+}
+
+.blog-main {
+    padding: 10px 48px;
+}
+
+.blog-content h6 {
+    color: #4718FE;
+}
+
+.blog-content h3 {
+    font-size: 23px;
+    padding: 10px 0;
+}
+
+.blog-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.blog-bottom .blog-author {
+    align-self: center;
+}
+
+/* FAQ Section */
+
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-content {
+    padding: 70px 0 0 48px;
+}
+
+.faq-content h2 {
+    font-size: 48px;
+}
+
+.faq-content h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ques {
+    font-weight: 700 !important;
+    margin: 18px 0;
+}
+
+.faq-content button {
+    border: none;
+    border-radius: 4px;
+    background-color: #4a1dfd;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 8px 25px;
+}
+
+.faq-image img {
+    padding-top: 50px;
+}
+
+/* Download Section */
+
+.download-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 68px 0;
+}
+
+.download-content h1 {
+    font-weight: 700px;
+}
+
+.download-content h1 span {
+    font-weight: 400;
+}
+
+.download-email form {
+    display: flex;
+}
+
+.download-email form input {
+    border: none;
+    background-color: #e8ecfd;
+    width: 360px;
+    padding: 10px 10px;
+    border-radius: 22px 0 0 22px;
+}
+
+.download-email form button {
+    border: none;
+    background-color: #4a1dfd;
+    color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 22px;
+    position: relative;
+    right: 10px;
+}
+
+/* Footer section */
+
+.footer-section {
+    background-color:#4a1dfd;
+    display: flex;
+    justify-content: space-between;
+    padding: 62px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+ .list li {
+    color: #FFFFFF;
+ }
+
+ .list-items::after {
+    content: "|";
+    position: relative;
+    left: 14px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logos-list {
+    display: flex;
+    margin-top: 32px;
+    gap: 32px;
+    list-style: none;
+    color: #FFFFFF;
+}
